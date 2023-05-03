@@ -20,7 +20,7 @@ function LoanCalculator() {
       <div className="row align-items-end">
         <div className="card" style={{ width: '30rem' }}>
           <div className="card-body">
-            <h5 className="card-title">Loan Calculator</h5>
+            <h5 className="card-title"><i class="bi bi-bank" style={{paddingRight:"5px"}}></i>Loan Calculator</h5>
             <div className="calculator">
               <form>
                 <div class="mb-3">

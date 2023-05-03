@@ -18,7 +18,7 @@ function InflationCalculator() {
       <div className="row align-items-end">
         <div className="card" style={{ width: '30rem' }}>
           <div className="card-body">
-            <h5 className="card-title">Infaltion Calculator</h5>
+            <h5 className="card-title"><i class="bi bi-graph-up-arrow" style={{paddingRight:"5px"}}></i>Infaltion Calculator</h5>
             <div className="calculator">
               <form>
                 <div class="mb-3">

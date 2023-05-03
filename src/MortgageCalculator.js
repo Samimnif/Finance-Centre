@@ -22,7 +22,7 @@ function MortgageCalculator() {
       <div className="row align-items-end">
         <div className="card" style={{ width: '30rem' }}>
           <div className="card-body">
-            <h5 className="card-title">Mortgage Calculator</h5>
+            <h5 className="card-title"><i class="bi bi-house-door" style={{paddingRight:"5px"}}></i>Mortgage Calculator</h5>
             <div className="calculator">
               <form>
                 <div class="mb-3">

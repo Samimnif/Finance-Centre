@@ -6,11 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></link>
       <nav className="navbar" style={{ backgroundColor: "#88c8f7" }}>
         <div className="container-fluid">
-          <a className="navbar-brand"> Home</a>
+          <a className="navbar-brand" style={{fontFamily: "cursive"}}><i class="bi bi-house" style={{paddingRight:"5px"}}></i>FH</a>
           <form className="d-flex" role="search">
-            <button className="btn btn-outline-primary" type="submit">login</button>
+            <button className="btn btn-outline-dark" type="submit">login</button>
           </form>
         </div>
       </nav>
