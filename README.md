@@ -15,4 +15,4 @@ bootstrap
 javascript
 ```
 ### Copyright
-2022 U+F7DB
+2022 U+F7DB <i class="bi bi-c-circle"></i>

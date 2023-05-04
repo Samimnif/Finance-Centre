@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import LoanCalculator from './LoanCalculator';
 import MortgageCalculator from './MortgageCalculator';
 import InflationCalculator from './InflationCalculator';
+import InterestCalculator from './InterestCalculator';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function FinancialHub() {
@@ -11,7 +12,7 @@ function FinancialHub() {
     const tools = [
         { name: 'Loan Calculator', content: <LoanCalculator /> },
         { name: 'Mortgage Calculator', content: <MortgageCalculator /> },
-        { name: 'Interest Calculator', content: 'Insert interest calculator here' },
+        { name: 'Interest Calculator', content: <InterestCalculator /> },
         { name: 'Inflation Calculator', content: <InflationCalculator /> },
         { name: 'Tool 5', content: 'Insert tool 5 here' },
         { name: 'Tool 6', content: 'Insert tool 6 here' },
@@ -47,12 +48,14 @@ function FinancialHub() {
 
     return (
         <div>
-            <div class="row">
-                <table>
-                    <tbody>
-                        {tableRows}
-                    </tbody>
-                </table>
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <table>
+                        <tbody>
+                            {tableRows}
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <br />
             <div class="row justify-content-center">
